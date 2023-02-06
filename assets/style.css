@@ -1,0 +1,84 @@
+#nav {
+  display: block;
+  background-color: #f48484;
+  display: inline-block;
+  width: 95vw;
+  border: 3px solid #5b8fb9;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  font-family: 'Open Sans', serif;
+}
+
+.time {
+  float: right;
+}
+
+.score {
+  float: left;
+  color: white;
+}
+
+.highestScore {
+  text-decoration: none;
+  color: black;
+}
+
+.highestScore:hover {
+  text-decoration: underline;
+}
+
+body {
+  background-image: url('https://www.gannett-cdn.com/indepth-static-assets/uploads/master/69748609007/846d76a7-3575-4f87-a92f-1256a84d362e-quiz22.jpg?width=1500');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+main {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+#container {
+  width: 700px;
+  background-color: #f55050;
+  border-radius: 5px;
+  padding: auto;
+  box-shadow: 0 0 10px 2px;
+  margin: auto;
+}
+
+#quizBody {
+  text-align: center;
+  justify-content: center;
+  padding: 12vh;
+  margin-top: 20px;
+  padding: auto;
+}
+
+button {
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  padding: 10px 16px 10px 16px;
+  font-size: 17px;
+  font-family: 'Open Sans', serif;
+  margin: 15px 15px 15px 15px;
+}
+
+button:hover {
+  transition-duration: 0.4s;
+  background-color: #f48484;
+  color: #fff;
+}
+
+h1 {
+  font-weight: 100;
+  padding: 8px;
+}
+
+h3 {
+  font-weight: 75;
+}
