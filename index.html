@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Quiz Application</title>
+</head>
+<body>
+    <nav>
+        <section id="nav">
+            <a class="highestScore" onclick="getScore()" href="#">
+                <h4>View the Highestscore</h4>
+            </a>
+        </section>
+        <section class="time">
+            <h4>Time: <span id="timeLeft">0</span></h4>
+        </section>
+    </nav>
+    <main>
+        <section id="container">
+            <div id="quizBody">
+                <h1>Quiz Challenge</h1>
+                <h3>Click Start Quiz to play</h3>
+                <button onclick="srart()">Begin the Quiz 🔥</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/app.js"></script>
+</body>
+</html>
